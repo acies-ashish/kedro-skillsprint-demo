@@ -1,0 +1,30 @@
+split_ratio: 0.2
+random_state: 42
+
+# All input feature columns except UserID and ordered (target)
+input_features:
+  - basket_icon_click
+  - basket_add_list
+  - basket_add_detail
+  - sort_by
+  - image_picker
+  - account_page_click
+  - promo_banner_click
+  - detail_wishlist_add
+  - list_size_dropdown
+  - closed_minibasket_click
+  - checked_delivery_detail
+  - checked_returns_detail
+  - sign_in
+  - saw_checkout
+  - saw_sizecharts
+  - saw_delivery
+  - saw_account_upgrade
+  - saw_homepage
+  - device_mobile
+  - device_computer
+  - device_tablet
+  - returning_user
+  - loc_uk
+
+target: ordered

@@ -1,0 +1,43 @@
+raw_data:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/sessions.csv
+
+cleaned_data:
+  type: pickle.PickleDataset
+  filepath: data/02_intermediate/cleaned_data.pkl
+
+features_train:
+  type: pickle.PickleDataset
+  filepath: data/04_feature/features_train.pkl
+
+features_test:
+  type: pickle.PickleDataset
+  filepath: data/04_feature/features_test.pkl
+
+model:
+  type: pickle.PickleDataset
+  filepath: data/06_models/propensity_model.pkl
+
+evaluation:
+  type: json.JSONDataset
+  filepath: data/08_reporting/evaluation.json
+
+eda_report:
+  type: json.JSONDataset
+  filepath: data/08_reporting/eda_report.json
+
+target_dist_plot:
+  type: plotly.JSONDataset
+  filepath: data/08_reporting/target_dist_plot.json
+
+feature_corr_plot:
+  type: plotly.JSONDataset
+  filepath: data/08_reporting/feature_corr_plot.json
+
+feature_vs_target_plot:
+  type: plotly.JSONDataset
+  filepath: data/08_reporting/feature_vs_target_plot.json
+
+feature_importance_plot:
+  type: plotly.JSONDataset
+  filepath: data/08_reporting/feature_importance_plot.json

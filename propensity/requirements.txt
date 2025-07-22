@@ -1,0 +1,13 @@
+ipython>=8.10
+jupyterlab>=3.0
+kedro-datasets>=3.0
+kedro-viz>=6.7.0
+kedro[jupyter]~=0.19.14
+notebook
+scikit-learn~=1.5.1
+pandas~=2.1
+numpy~=1.24
+matplotlib~=3.7
+seaborn~=0.12
+setuptools; python_version >= "3.12"
+plotly>=5.0
