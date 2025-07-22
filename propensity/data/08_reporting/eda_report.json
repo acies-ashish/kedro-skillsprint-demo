@@ -1,0 +1,262 @@
+{
+  "shape": [
+    455401,
+    25
+  ],
+  "columns": [
+    "UserID",
+    "basket_icon_click",
+    "basket_add_list",
+    "basket_add_detail",
+    "sort_by",
+    "image_picker",
+    "account_page_click",
+    "promo_banner_click",
+    "detail_wishlist_add",
+    "list_size_dropdown",
+    "closed_minibasket_click",
+    "checked_delivery_detail",
+    "checked_returns_detail",
+    "sign_in",
+    "saw_checkout",
+    "saw_sizecharts",
+    "saw_delivery",
+    "saw_account_upgrade",
+    "saw_homepage",
+    "device_mobile",
+    "device_computer",
+    "device_tablet",
+    "returning_user",
+    "loc_uk",
+    "ordered"
+  ],
+  "dtypes": {
+    "UserID": "object",
+    "basket_icon_click": "int64",
+    "basket_add_list": "int64",
+    "basket_add_detail": "int64",
+    "sort_by": "int64",
+    "image_picker": "int64",
+    "account_page_click": "int64",
+    "promo_banner_click": "int64",
+    "detail_wishlist_add": "int64",
+    "list_size_dropdown": "int64",
+    "closed_minibasket_click": "int64",
+    "checked_delivery_detail": "int64",
+    "checked_returns_detail": "int64",
+    "sign_in": "int64",
+    "saw_checkout": "int64",
+    "saw_sizecharts": "int64",
+    "saw_delivery": "int64",
+    "saw_account_upgrade": "int64",
+    "saw_homepage": "int64",
+    "device_mobile": "int64",
+    "device_computer": "int64",
+    "device_tablet": "int64",
+    "returning_user": "int64",
+    "loc_uk": "int64",
+    "ordered": "int64"
+  },
+  "nulls": {
+    "UserID": 0,
+    "basket_icon_click": 0,
+    "basket_add_list": 0,
+    "basket_add_detail": 0,
+    "sort_by": 0,
+    "image_picker": 0,
+    "account_page_click": 0,
+    "promo_banner_click": 0,
+    "detail_wishlist_add": 0,
+    "list_size_dropdown": 0,
+    "closed_minibasket_click": 0,
+    "checked_delivery_detail": 0,
+    "checked_returns_detail": 0,
+    "sign_in": 0,
+    "saw_checkout": 0,
+    "saw_sizecharts": 0,
+    "saw_delivery": 0,
+    "saw_account_upgrade": 0,
+    "saw_homepage": 0,
+    "device_mobile": 0,
+    "device_computer": 0,
+    "device_tablet": 0,
+    "returning_user": 0,
+    "loc_uk": 0,
+    "ordered": 0
+  },
+  "target_counts": {
+    "0": 0.958074312528958,
+    "1": 0.04192568747104201
+  },
+  "describe_summary": {
+    "basket_icon_click": {
+      "mean": 0.0991499799078175,
+      "std": 0.2988636102400904,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "basket_add_list": {
+      "mean": 0.07452113631722372,
+      "std": 0.2626173794772894,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "basket_add_detail": {
+      "mean": 0.11291586974995663,
+      "std": 0.31649027798652235,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "sort_by": {
+      "mean": 0.03684884310750306,
+      "std": 0.1883907741977808,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "image_picker": {
+      "mean": 0.02673467998533161,
+      "std": 0.16130714183773176,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "account_page_click": {
+      "mean": 0.0035704796432155395,
+      "std": 0.059646786423533826,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "promo_banner_click": {
+      "mean": 0.016207693878581734,
+      "std": 0.12627366926998326,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "detail_wishlist_add": {
+      "mean": 0.003511191235855872,
+      "std": 0.05915125066315234,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "list_size_dropdown": {
+      "mean": 0.23036181299557973,
+      "std": 0.42106488505525835,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "closed_minibasket_click": {
+      "mean": 0.017277081077995,
+      "std": 0.1303020369380753,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "checked_delivery_detail": {
+      "mean": 0.0628742580714579,
+      "std": 0.24273692575825773,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "checked_returns_detail": {
+      "mean": 0.009178723806052249,
+      "std": 0.09536506071746052,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "sign_in": {
+      "mean": 0.08880964249090362,
+      "std": 0.28446909777153634,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "saw_checkout": {
+      "mean": 0.08008546314127549,
+      "std": 0.2714257605838252,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "saw_sizecharts": {
+      "mean": 0.00038866844824671004,
+      "std": 0.0197108659936189,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "saw_delivery": {
+      "mean": 0.0055423681546593,
+      "std": 0.07424057120452936,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "saw_account_upgrade": {
+      "mean": 0.0010957376026842277,
+      "std": 0.0330838233167374,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "saw_homepage": {
+      "mean": 0.29002351773491936,
+      "std": 0.45377343360675737,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "device_mobile": {
+      "mean": 0.6807055759649189,
+      "std": 0.46620378814207575,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "device_computer": {
+      "mean": 0.19422003904251417,
+      "std": 0.39559949333603656,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "device_tablet": {
+      "mean": 0.12836379366755893,
+      "std": 0.3344948068824138,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "returning_user": {
+      "mean": 0.5349153822674961,
+      "std": 0.4987799739084389,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "loc_uk": {
+      "mean": 0.9332236863775003,
+      "std": 0.249634481596897,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "ordered": {
+      "mean": 0.04192568747104201,
+      "std": 0.20041959087058578,
+      "min": 0.0,
+      "max": 1.0
+    }
+  },
+  "feature_means": {
+    "basket_icon_click": 0.0991499799078175,
+    "basket_add_list": 0.07452113631722372,
+    "basket_add_detail": 0.11291586974995663,
+    "sort_by": 0.03684884310750306,
+    "image_picker": 0.02673467998533161,
+    "account_page_click": 0.0035704796432155395,
+    "promo_banner_click": 0.016207693878581734,
+    "detail_wishlist_add": 0.003511191235855872,
+    "list_size_dropdown": 0.23036181299557973,
+    "closed_minibasket_click": 0.017277081077995,
+    "checked_delivery_detail": 0.0628742580714579,
+    "checked_returns_detail": 0.009178723806052249,
+    "sign_in": 0.08880964249090362,
+    "saw_checkout": 0.08008546314127549,
+    "saw_sizecharts": 0.00038866844824671004,
+    "saw_delivery": 0.0055423681546593,
+    "saw_account_upgrade": 0.0010957376026842277,
+    "saw_homepage": 0.29002351773491936,
+    "device_mobile": 0.6807055759649189,
+    "device_computer": 0.19422003904251417,
+    "device_tablet": 0.12836379366755893,
+    "returning_user": 0.5349153822674961,
+    "loc_uk": 0.9332236863775003
+  }
+}

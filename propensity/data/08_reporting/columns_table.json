@@ -1,0 +1,102 @@
+[
+  {
+    "Column Name": "UserID",
+    "Dtype": "object"
+  },
+  {
+    "Column Name": "basket_icon_click",
+    "Dtype": "int64"
+  },
+  {
+    "Column Name": "basket_add_list",
+    "Dtype": "int64"
+  },
+  {
+    "Column Name": "basket_add_detail",
+    "Dtype": "int64"
+  },
+  {
+    "Column Name": "sort_by",
+    "Dtype": "int64"
+  },
+  {
+    "Column Name": "image_picker",
+    "Dtype": "int64"
+  },
+  {
+    "Column Name": "account_page_click",
+    "Dtype": "int64"
+  },
+  {
+    "Column Name": "promo_banner_click",
+    "Dtype": "int64"
+  },
+  {
+    "Column Name": "detail_wishlist_add",
+    "Dtype": "int64"
+  },
+  {
+    "Column Name": "list_size_dropdown",
+    "Dtype": "int64"
+  },
+  {
+    "Column Name": "closed_minibasket_click",
+    "Dtype": "int64"
+  },
+  {
+    "Column Name": "checked_delivery_detail",
+    "Dtype": "int64"
+  },
+  {
+    "Column Name": "checked_returns_detail",
+    "Dtype": "int64"
+  },
+  {
+    "Column Name": "sign_in",
+    "Dtype": "int64"
+  },
+  {
+    "Column Name": "saw_checkout",
+    "Dtype": "int64"
+  },
+  {
+    "Column Name": "saw_sizecharts",
+    "Dtype": "int64"
+  },
+  {
+    "Column Name": "saw_delivery",
+    "Dtype": "int64"
+  },
+  {
+    "Column Name": "saw_account_upgrade",
+    "Dtype": "int64"
+  },
+  {
+    "Column Name": "saw_homepage",
+    "Dtype": "int64"
+  },
+  {
+    "Column Name": "device_mobile",
+    "Dtype": "int64"
+  },
+  {
+    "Column Name": "device_computer",
+    "Dtype": "int64"
+  },
+  {
+    "Column Name": "device_tablet",
+    "Dtype": "int64"
+  },
+  {
+    "Column Name": "returning_user",
+    "Dtype": "int64"
+  },
+  {
+    "Column Name": "loc_uk",
+    "Dtype": "int64"
+  },
+  {
+    "Column Name": "ordered",
+    "Dtype": "int64"
+  }
+]
